@@ -1,0 +1,16 @@
+package day01;
+
+public class demo01 {
+
+	public static void main(String[] args) {
+		String url = "http://localhost:3306/fsd57";
+		
+     try {
+		Class.forName("com.mysql.cj.jdbc.Driver");//type 4 driver
+	} catch (ClassNotFoundException e) {
+		
+		e.printStackTrace();
+	}
+	}
+
+}
